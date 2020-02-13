@@ -4,11 +4,68 @@
     height: 50px;
 
 }
+.nav-link{
+    margin-top: 13px;
+    margin-bottom: 13px;
+    padding: 13px 17px 11px;
+    opacity: 0.5;
+    -webkit-transition: opacity 50ms ease;
+    transition: opacity 50ms ease;
+    color: #fff;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.nav-link:hover {
+    color: black;
+}
+.nav-link:active {
+    color: rgb(202, 173, 173);
+}
+.top-menu {
+   background-color: rgba(17, 10, 10, 0.699);
+    height:60px;
+    z-index:170;
+    margin:0 auto;
+    border-bottom:1px solid #dadada;
+    width:100%;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    
+    padding-right:30px
+}
+.icons { 
+    color: red; 
+} 
+i { 
+    text-shadow: 2px 4px 6px orange; 
+} 
+.fa{ 
+    font-size: 50px; 
+} 
+
 body {
-    background-image: url('img/back.jpg');
+    background-image: url('img/NY.jpg');
     background-repeat: no-repeat;
-    width: 100%;
   }
-  .welcome {
-      columns: #fff;
+
+  .display-4 {
+      margin-top: 5%;
+  }
+  .travel {
+      color: #f3ebeb;
+      text-shadow: 2px 2px #423f3f;
+      
+  }
+  .one {
+      margin-top: auto;
+  }
+  .two {
+      margin-top: 20%;
+  }
+  .three { 
+      margin-top: 40%;
   }
